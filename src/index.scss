@@ -1,0 +1,22 @@
+@use "./styles/_colors.scss";
+
+@font-face {
+	font-family: "Poppins";
+	src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype"),
+		url("./assets/fonts/Poppins-BoldItalic.ttf") format("truetype"),
+		url("./assets/fonts/Poppins-ExtraBold.ttf") format("truetype"),
+		url("./assets/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype"),
+		url("./assets/fonts/Poppins-Italic.ttf") format("truetype"),
+		url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+
+:root {
+	font-size: 62.5%;
+}
